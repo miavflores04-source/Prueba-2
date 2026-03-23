@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;600;700;800&display=swap');
+
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+	--color-fondo: #f7f7f7;
+	--fondo-gris: #f7f7f7;
+}
+body{
+	font-size: 14px;
+	color: var(--color-titulos);
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+	
+}
+
+#hero-title {
+  background-image: url('../img/bg-services-title.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 7% 0;
+  text-align: center;
+  position: relative;
+}
+
+#hero-title::after {
+  position: absolute;
+  background-color: var(--color-titulos);
+}
+ 
+#hero-title .container {
+  position: relative;
+}
+ 
+#hero-title h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+}
+ 
+
+#services {
+  padding: 6% 0 5%;
+  background-color: #fff;
+}
+ 
+#services .servicio-item {
+  text-align: center;
+  padding: 2% 5%;
+}
+ 
+#services .servicio-icono {
+  font-size: 90px;
+  color: var(--color-iconos);
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 24px auto;
+}
+ 
+#services .servicio-titulo {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-titulos);
+  margin-bottom: 14px;
+}
+ 
+#services .servicio-desc {
+  font-size: 14px;
+  font-weight: 300;
+  color: #888;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+ 
+#services .servicio-check {
+  text-align: center;
+  font-size: 28px;
+  color: var(--color-checks);
+  display: block;
+	width: 100%;
+  margin: 0 auto 24px auto;
+}
+
+#information {
+  background-color: var(--fondo-gris);
+  padding: 6% 0 5%;
+}
+ 
+#information .info-header {
+  text-align: center;
+  margin-bottom: 4%;
+}
+ 
+#information .info-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-titulos);
+  margin-bottom: 12px;
+}
+ 
+#information .info-header p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #888;
+}
+ 
+#information .info-item {
+  text-align: center;
+  padding-bottom: 3%;
+}
+ 
+#information .info-img {
+  width: 100%;
+  margin-bottom: 18px;
+  border-radius: 2px;
+}
+ 
+#information .info-titulo {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-titulos);
+  margin-bottom: 10px;
+}
+ 
+#information .info-desc {
+  font-size: 13px;
+  font-weight: 300;
+  color: #888;
+  line-height: 1.6;
+}
